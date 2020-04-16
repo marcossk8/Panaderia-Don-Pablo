@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97c4bc749726a5a1fd492ab78e492f07",
+    "revision": "760c5673b51360857c0fbbaf8319719b",
     "url": "/Panaderia-Don-Pablo/index.html"
   },
   {
-    "revision": "1221185668283920e48a",
+    "revision": "4cc263071597d607a993",
     "url": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1221185668283920e48a",
-    "url": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js"
+    "revision": "4cc263071597d607a993",
+    "url": "/Panaderia-Don-Pablo/static/js/main.b3597129.chunk.js"
   },
   {
     "revision": "eb353c0c2a7c5cfab719",

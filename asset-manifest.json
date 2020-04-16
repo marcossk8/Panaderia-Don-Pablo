@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css",
-    "main.js": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js",
-    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js.map",
+    "main.js": "/Panaderia-Don-Pablo/static/js/main.b3597129.chunk.js",
+    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.b3597129.chunk.js.map",
     "runtime-main.js": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js",
     "runtime-main.js.map": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js.map",
     "static/js/2.7b52eba1.chunk.js": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js",
     "static/js/2.7b52eba1.chunk.js.map": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.map",
     "index.html": "/Panaderia-Don-Pablo/index.html",
-    "precache-manifest.e502b102369a0473f0a28ff18d6260d8.js": "/Panaderia-Don-Pablo/precache-manifest.e502b102369a0473f0a28ff18d6260d8.js",
+    "precache-manifest.fd5c84c7f84e2f49d6c6b8bd93b8bef3.js": "/Panaderia-Don-Pablo/precache-manifest.fd5c84c7f84e2f49d6c6b8bd93b8bef3.js",
     "service-worker.js": "/Panaderia-Don-Pablo/service-worker.js",
     "static/css/main.25a05a86.chunk.css.map": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css.map",
     "static/js/2.7b52eba1.chunk.js.LICENSE.txt": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.644d3ec6.js",
     "static/js/2.7b52eba1.chunk.js",
     "static/css/main.25a05a86.chunk.css",
-    "static/js/main.b95e227f.chunk.js"
+    "static/js/main.b3597129.chunk.js"
   ]
 }
