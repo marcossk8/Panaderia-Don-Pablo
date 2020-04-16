@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Panaderia-Don-Pablo/precache-manifest.fd5c84c7f84e2f49d6c6b8bd93b8bef3.js"
+  "/Panaderia-Don-Pablo/precache-manifest.135059f82fb8e723b5f37fb1fc958798.js"
 );
 
 self.addEventListener('message', (event) => {
