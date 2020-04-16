@@ -29,7 +29,7 @@ function App() {
     if (views === 0) {
       return <Home setItemCategory={setItemCategory.bind(this)} setViews={setViews.bind(this)}></Home>
     } else if (views === 1) {
-      return <Bakeds itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setItemCategory={setItemCategory.bind(this)} itemCategory={itemCategory}></Bakeds>
+      return <Bakeds itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setItemCategory={setItemCategory.bind(this)} itemCategory={itemCategory} setViews={setViews.bind(this)}></Bakeds>
     } else if (views === 2) {
       return <ShoppingCart itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setViews={setViews.bind(this)} setOpenAlertBuyConfirmBuy={setOpenAlertBuyConfirmBuy.bind(this)}></ShoppingCart>
     }

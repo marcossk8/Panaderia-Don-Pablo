@@ -17,7 +17,7 @@ import Snackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
 import Close from '@material-ui/icons/Close';
 import Fade from '@material-ui/core/Fade';
-import {configs} from '../../configs/configs';
+import { configs } from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -168,7 +168,7 @@ export default function InteractiveList(props) {
                             <Close fontSize="inherit" />
                         </IconButton>
                     }>
-                    Se han cargado {props.itemsAddedToCart.length} producto/s al carrito. Total ${totalBuy.toFixed(2)}
+                    <div onClick={() => props.setViews(2)}>Se han cargado {props.itemsAddedToCart.length} producto/s al carrito. Total ${totalBuy.toFixed(2)}</div>
                 </Alert>
             </Snackbar>
 
