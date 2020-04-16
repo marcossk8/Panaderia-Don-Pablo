@@ -10,8 +10,8 @@
 	.st4{font-size:12px;}
 	.st5{fill:none;stroke:#F7C873;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
-<text transform="matrix(1 0 0 1 72.6911 43.5338)" class="st0 st1 st2">Don Pablo</text>
-<text transform="matrix(1 0 0 1 112.6539 63.3482)" class="st0 st3 st4">Panaderia</text>
+<text transform="matrix(1 0 0 1 68.6911 43.5338)" class="st0 st1 st2">Don Pablo</text>
+<text transform="matrix(1 0 0 1 108.6539 63.3482)" class="st0 st3 st4">Panaderia</text>
 <g>
 	<g>
 		<path class="st0" d="M27.02,8.65c-0.81,0.1-1.65,0.23-2.5,0.45c-3.59,0.97-6.9,2.65-9.86,5.04c-2.37,1.9-4.49,4.2-6.34,6.91
@@ -221,5 +221,5 @@
 			C15.87,55.23,15.5,54.85,15.5,54.39z"/>
 	</g>
 </g>
-<line class="st5" x1="126.97" y1="71.21" x2="154.97" y2="71.21"/>
+<line class="st5" x1="122.97" y1="71.21" x2="150.97" y2="71.21"/>
 </svg>
