@@ -16,7 +16,7 @@ import Divider from '@material-ui/core/Divider';
 import Snackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
 import Close from '@material-ui/icons/Close';
-import Slide from '@material-ui/core/Slide';
+import Fade from '@material-ui/core/Fade';
 import {configs} from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
@@ -172,13 +172,13 @@ export default function InteractiveList(props) {
                 </Alert>
             </Snackbar>
 
-            <Slide direction="down" in={totalBuy > 0 ? true : false} mountOnEnter unmountOnExit>
+            <Fade in={totalBuy > 0 ? true : false}>
                 <div className={classes.conts}>
                     <div className={classes.conts}>
                         <Typography className={classes.textTotal}>Se han cargado {props.itemsAddedToCart.length} producto/s al carrito. Total ${totalBuy.toFixed(2)}</Typography>
                     </div>
                 </div>
-            </Slide>
+            </Fade>
 
 
             <Grid container spacing={3}>

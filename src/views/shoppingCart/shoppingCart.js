@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
     buttonLargeMore: {
         width: '100%',
         color: configs.colors.secondary,
-        border: '1px solid'`${configs.colors.secondary}`,
+        border: '1px solid'+`${configs.colors.secondary}`,
         '&:hover': {
             backgroundColor: 'rgba(232, 244, 253, 0.5)',
         },
