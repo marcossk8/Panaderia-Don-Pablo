@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98f5a718e3f15c9a504ebbf029abdeae",
+    "revision": "97c4bc749726a5a1fd492ab78e492f07",
     "url": "/Panaderia-Don-Pablo/index.html"
   },
   {
-    "revision": "c6ea65c0bc8280d04242",
+    "revision": "1221185668283920e48a",
     "url": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6ea65c0bc8280d04242",
-    "url": "/Panaderia-Don-Pablo/static/js/main.63cc404a.chunk.js"
+    "revision": "1221185668283920e48a",
+    "url": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js"
   },
   {
     "revision": "eb353c0c2a7c5cfab719",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4053c42c44fe6a45cb87f2d13d31742",
     "url": "/Panaderia-Don-Pablo/static/media/galleta-miel.f4053c42.jpg"
-  },
-  {
-    "revision": "e5bf72dbe971f1a1c227bc05a4c73352",
-    "url": "/Panaderia-Don-Pablo/static/media/logotipo.e5bf72db.svg"
   },
   {
     "revision": "f7a85486556ba3ff81f90d3d3de44807",

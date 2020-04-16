@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css",
-    "main.js": "/Panaderia-Don-Pablo/static/js/main.63cc404a.chunk.js",
-    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.63cc404a.chunk.js.map",
+    "main.js": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js",
+    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.b95e227f.chunk.js.map",
     "runtime-main.js": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js",
     "runtime-main.js.map": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js.map",
     "static/js/2.7b52eba1.chunk.js": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js",
     "static/js/2.7b52eba1.chunk.js.map": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.map",
     "index.html": "/Panaderia-Don-Pablo/index.html",
-    "precache-manifest.fece0c1fc6743edd683d45031a79ef2e.js": "/Panaderia-Don-Pablo/precache-manifest.fece0c1fc6743edd683d45031a79ef2e.js",
+    "precache-manifest.e502b102369a0473f0a28ff18d6260d8.js": "/Panaderia-Don-Pablo/precache-manifest.e502b102369a0473f0a28ff18d6260d8.js",
     "service-worker.js": "/Panaderia-Don-Pablo/service-worker.js",
     "static/css/main.25a05a86.chunk.css.map": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css.map",
     "static/js/2.7b52eba1.chunk.js.LICENSE.txt": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt",
@@ -25,7 +25,6 @@
     "static/media/factura-membrillo.jpg": "/Panaderia-Don-Pablo/static/media/factura-membrillo.44a55a80.jpg",
     "static/media/galleta-chips.jpg": "/Panaderia-Don-Pablo/static/media/galleta-chips.0c7f383d.jpg",
     "static/media/galleta-miel.jpg": "/Panaderia-Don-Pablo/static/media/galleta-miel.f4053c42.jpg",
-    "static/media/logotipo.svg": "/Panaderia-Don-Pablo/static/media/logotipo.e5bf72db.svg",
     "static/media/medialuna-dulcedeleche.jpg": "/Panaderia-Don-Pablo/static/media/medialuna-dulcedeleche.f7a85486.jpg",
     "static/media/medialunas.jpg": "/Panaderia-Don-Pablo/static/media/medialunas.e8423b65.jpg",
     "static/media/muffin.jpg": "/Panaderia-Don-Pablo/static/media/muffin.30b05f51.jpg",
@@ -54,6 +53,6 @@
     "static/js/runtime-main.644d3ec6.js",
     "static/js/2.7b52eba1.chunk.js",
     "static/css/main.25a05a86.chunk.css",
-    "static/js/main.63cc404a.chunk.js"
+    "static/js/main.b95e227f.chunk.js"
   ]
 }
