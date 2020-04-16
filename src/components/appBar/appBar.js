@@ -6,6 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import Fade from '@material-ui/core/Fade';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import Home from '@material-ui/icons/Home';
@@ -16,7 +17,7 @@ import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import PropTypes from 'prop-types';
-import {configs} from '../../configs/configs';
+import { configs } from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
     appbar: {
@@ -187,14 +188,12 @@ export default function PrimarySearchAppBar(props) {
             <HideOnScroll {...props}>
                 <AppBar className={classes.appbar} elevation={0}>
                     <Toolbar>
-                        {props.views === 1
-                            ?
+                        <Fade in={props.views === 1 ? true : false} mountOnEnter unmountOnExit>
                             <IconButton edge="start" color="inherit" onClick={() => props.setViews(0)}>
                                 <KeyboardBackspace></KeyboardBackspace>
                             </IconButton>
-                            :
-                            null
-                        }
+                        </Fade>
+
                         <img className={classes.contLogotipo} src={logotipo} alt="Isologotipo"></img>
                         <div className={classes.grow} />
                         <div className={classes.sectionDesktopAndMobile}>

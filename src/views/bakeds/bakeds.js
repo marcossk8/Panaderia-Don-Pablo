@@ -172,7 +172,7 @@ export default function InteractiveList(props) {
                 </Alert>
             </Snackbar>
 
-            <Fade in={totalBuy > 0 ? true : false}>
+            <Fade in={totalBuy > 0 ? true : false} mountOnEnter unmountOnExit>
                 <div className={classes.conts}>
                     <div className={classes.conts}>
                         <Typography className={classes.textTotal}>Se han cargado {props.itemsAddedToCart.length} producto/s al carrito. Total ${totalBuy.toFixed(2)}</Typography>

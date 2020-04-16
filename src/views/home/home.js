@@ -11,7 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Alert from '@material-ui/lab/Alert';
 import Close from '@material-ui/icons/Close';
 import Collapse from '@material-ui/core/Collapse';
-import {configs} from '../../configs/configs';
+import { configs } from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -65,28 +65,29 @@ export default function FullWidthGrid(props) {
                     }>
                     Ahora podes comprar sin moverte de tu casa, proba nuestras delicias.
             </Alert>
+
             </Collapse>
 
             <Grid container spacing={3}>
-
                 {
-                    categories.map((item, key) => (
+                    categories.map((category, key) => (
                         <Grid key={key} item xs={12} sm={6} md={3}>
-                            <Card className={classes.card} onClick={()=>{
-                                props.setItemCategory(item.items)
-                                props.setViews(1)}}>
+                            <Card className={classes.card} onClick={() => {
+                                props.setItemCategory(category.items)
+                                props.setViews(1)
+                            }}>
                                 <CardActionArea>
                                     <CardMedia
                                         className={classes.media}
-                                        image={item.image}
+                                        image={category.image}
                                         title="Contemplative Reptile"
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="h2">
-                                            {item.name}
+                                            {category.name}
                                         </Typography>
                                         <Typography className={classes.textDescription} variant="body2" color="textSecondary" component="p">
-                                            {item.description}
+                                            {category.description}
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>

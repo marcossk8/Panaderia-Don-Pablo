@@ -14,7 +14,7 @@ import Snackbar from '@material-ui/core/Snackbar';
 import Chip from '@material-ui/core/Chip';
 import Alert from '@material-ui/lab/Alert';
 import Close from '@material-ui/icons/Close';
-import {configs} from '../../configs/configs';
+import { configs } from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
     buttonLargeMore: {
         width: '100%',
         color: configs.colors.secondary,
-        border: '1px solid'+`${configs.colors.secondary}`,
+        border: '1px solid' + configs.colors.secondary,
         '&:hover': {
             backgroundColor: 'rgba(232, 244, 253, 0.5)',
         },
@@ -116,7 +116,7 @@ export default function InteractiveList(props) {
         if (props.itemsAddedToCart.length === 0) {
             props.setViews(0)
         }
-    }, [props.itemsAddedToCart]);
+    }, [props]);
 
     const handleChange = (prop) => (event) => {
         if (event.target.value !== '') {
@@ -175,6 +175,12 @@ export default function InteractiveList(props) {
     const handleClick = () => {
         console.info('You clicked the Chip.');
     };
+
+    const confirmBuy = () => {
+            props.setAddedToCart([])
+            props.setViews(0)
+            props.setOpenAlertBuyConfirmBuy(true)
+    }
 
     return (
         <div className={classes.root}>
@@ -324,7 +330,7 @@ export default function InteractiveList(props) {
                                     Agregar más productos
                                 </Button>
 
-                                <Button size="large" className={classes.buttonLarge} onClick={() => console.log('')}>
+                                <Button size="large" className={classes.buttonLarge} onClick={() => confirmBuy()}>
                                     Comprar
                                 </Button>
                             </CardContent>
