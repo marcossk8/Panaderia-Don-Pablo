@@ -1,38 +1,25 @@
+:root {
+  --primary-color: #f7c873;
+  --secondary-color: #434343;
+  --primary-ligth-color: #faebcd;
+  --gray-one-color: #f8f8f8;
+  --gray-two-color: #707070;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #fafafa;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+}
+
+.MuiButton-root {
+  text-transform: capitalize !important;
+}
+
+.MuiGrid-spacing-xs-2 {
+  margin: 0 !important;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

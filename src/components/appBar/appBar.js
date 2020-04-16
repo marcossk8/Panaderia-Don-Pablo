@@ -10,18 +10,18 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import Home from '@material-ui/icons/Home';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import Call from '@material-ui/icons/Call';
 import ShoppingCart from '@material-ui/icons/ShoppingCart';
-import logotipo from '../../images/logotipo.svg';
+import logotipo from '../../assets/images/logotipo.svg';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import PropTypes from 'prop-types';
+import {configs} from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
     appbar: {
         backgroundColor: "#434343",
-        height: 64
+        ...configs.appBar
     },
     grow: {
         flexGrow: 1,
@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
         width: 130
     },
     navTextIcon: {
-        color: '#f7c873'
+        color: configs.colors.primary
     }
 }));
 

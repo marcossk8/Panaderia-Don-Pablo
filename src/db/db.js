@@ -2,7 +2,7 @@ import frances from '../assets/images/pan-frances.jpg';
 import miñon from '../assets/images/pan-miñon.jpg';
 import individual from '../assets/images/pan-individual.jpg';
 import casero from '../assets/images/pan-casero.jpg';
-import flautin from '../images/pan-flautin.jpg';
+import flautin from '../assets/images/pan-flautin.jpg';
 import hamburguesa from '../assets/images/pan-hamburguesa.jpg';
 import lomo from '../assets/images/pan-lomo.jpg';
 import viena from '../assets/images/pan-viena.jpg';
