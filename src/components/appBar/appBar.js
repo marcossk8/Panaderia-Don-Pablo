@@ -205,12 +205,12 @@ export default function PrimarySearchAppBar(props) {
                         <img className={classes.contLogotipo} src={logotipo} alt="Isologotipo"></img>
                         <div className={classes.grow} />
                         <div className={classes.sectionDesktopAndMobile}>
-                            <Tooltip disableHoverListener title="Inicio">
+                            <Tooltip disableFocusListener title="Inicio">
                                 <IconButton onClick={() => props.setViews(0)} className={props.views === 0 || props.views === 1 ? classes.navTextIcon : null} color="inherit">
                                     <Home />
                                 </IconButton>
                             </Tooltip>
-                            <Tooltip disableHoverListener title="Carrito, debe agregar productos para ingresar">
+                            <Tooltip disableFocusListener title="Carrito, debe agregar productos para ingresar.">
                                 <IconButton onClick={() => props.numberOfItemsAddedToCart >= 1 ? props.setViews(2) : null} aria-label="show 17 new notifications" className={props.views === 2 ? classes.navTextIcon : null} color="inherit">
                                     <Badge badgeContent={props.numberOfItemsAddedToCart} color="secondary">
                                         <ShoppingCart />
@@ -219,12 +219,12 @@ export default function PrimarySearchAppBar(props) {
                             </Tooltip>
                         </div>
                         <div className={classes.sectionDesktop}>
-                            <Tooltip disableHoverListener title="Mis pedidos">
+                            <Tooltip disableFocusListener title="Mis pedidos">
                                 <IconButton color="inherit">
                                     <History />
                                 </IconButton>
                             </Tooltip>
-                            <Tooltip disableHoverListener title="Contáctanos">
+                            <Tooltip disableFocusListener title="Contáctanos">
                                 <IconButton color="inherit">
                                     <MailIcon />
                                 </IconButton>
