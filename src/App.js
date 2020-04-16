@@ -54,7 +54,7 @@ function App() {
               <Close fontSize="inherit" />
             </IconButton>
           }>
-          Gracias por confiar en nosotros. En 20min. aprox. llegara su pedido.
+          Gracias por confiar en nosotros. Su pedido llegara en 20min. aprox.
         </Alert>
       </Snackbar>
     </div>

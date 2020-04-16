@@ -63,7 +63,7 @@ export default function FullWidthGrid(props) {
                             <Close fontSize="inherit" />
                         </IconButton>
                     }>
-                    Ahora podes comprar sin moverte de tu casa, proba nuestras delicias.
+                    Ahora puedes comprar sin moverte de tu casa, proba nuestras delicias.
             </Alert>
 
             </Collapse>

@@ -7,6 +7,7 @@ import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import Fade from '@material-ui/core/Fade';
+import Tooltip from '@material-ui/core/Tooltip';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import Home from '@material-ui/icons/Home';
@@ -14,6 +15,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import ShoppingCart from '@material-ui/icons/ShoppingCart';
 import logotipo from '../../assets/images/logotipo.svg';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
+import History from '@material-ui/icons/History';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import PropTypes from 'prop-types';
@@ -165,6 +167,12 @@ export default function PrimarySearchAppBar(props) {
         >
             <MenuItem>
                 <IconButton aria-label="show 4 new mails" color="inherit">
+                    <History />
+                </IconButton>
+                <p>Mis pedidos</p>
+            </MenuItem>
+            <MenuItem>
+                <IconButton aria-label="show 4 new mails" color="inherit">
                     <MailIcon />
                 </IconButton>
                 <p>Contacto</p>
@@ -197,19 +205,31 @@ export default function PrimarySearchAppBar(props) {
                         <img className={classes.contLogotipo} src={logotipo} alt="Isologotipo"></img>
                         <div className={classes.grow} />
                         <div className={classes.sectionDesktopAndMobile}>
-                            <IconButton onClick={() => props.setViews(0)} className={props.views === 0 || props.views === 1 ? classes.navTextIcon : null} color="inherit">
-                                <Home />
-                            </IconButton>
-                            <IconButton onClick={() => props.numberOfItemsAddedToCart >= 1 ? props.setViews(2) : null} aria-label="show 17 new notifications" className={props.views === 2 ? classes.navTextIcon : null} color="inherit">
-                                <Badge badgeContent={props.numberOfItemsAddedToCart} color="secondary">
-                                    <ShoppingCart />
-                                </Badge>
-                            </IconButton>
+                            <Tooltip disableHoverListener title="Inicio">
+                                <IconButton onClick={() => props.setViews(0)} className={props.views === 0 || props.views === 1 ? classes.navTextIcon : null} color="inherit">
+                                    <Home />
+                                </IconButton>
+                            </Tooltip>
+                            <Tooltip disableHoverListener title="Carrito, debe agregar productos para ingresar">
+                                <IconButton onClick={() => props.numberOfItemsAddedToCart >= 1 ? props.setViews(2) : null} aria-label="show 17 new notifications" className={props.views === 2 ? classes.navTextIcon : null} color="inherit">
+                                    <Badge badgeContent={props.numberOfItemsAddedToCart} color="secondary">
+                                        <ShoppingCart />
+                                    </Badge>
+                                </IconButton>
+                            </Tooltip>
                         </div>
                         <div className={classes.sectionDesktop}>
-                            <IconButton color="inherit">
-                                <MailIcon />
-                            </IconButton>
+                            <Tooltip disableHoverListener title="Mis pedidos">
+                                <IconButton color="inherit">
+                                    <History />
+                                </IconButton>
+                            </Tooltip>
+                            <Tooltip disableHoverListener title="Contáctanos">
+                                <IconButton color="inherit">
+                                    <MailIcon />
+                                </IconButton>
+                            </Tooltip>
+
                             <IconButton
                                 edge="end"
                                 aria-label="account of current user"

@@ -304,7 +304,7 @@ export default function InteractiveList(props) {
 
                                 <div className={classes.contActionsOne}>
                                     <Typography className={classes.icon}>
-                                        Seleccionar metodo de pago
+                                        Seleccionar método de pago
                                     </Typography>
                                     <Button color="secondary" size="small">
                                         Dividir pago
@@ -313,7 +313,7 @@ export default function InteractiveList(props) {
 
                                 <div className={classes.contChips}>
                                     <Chip className={classes.chips} label="Efectivo" variant="outlined" onClick={handleClick} />
-                                    <Chip className={classes.chips} label="Tarjeta de credito" variant="outlined" onClick={handleClick} />
+                                    <Chip className={classes.chips} label="Tarjeta de crédito" variant="outlined" onClick={handleClick} />
                                     <Chip className={classes.chips} label="Tarjeta de debito" variant="outlined" onClick={handleClick} />
                                     <Chip className={classes.chips} label="Mercado pago" variant="outlined" onClick={handleClick} />
                                 </div>
