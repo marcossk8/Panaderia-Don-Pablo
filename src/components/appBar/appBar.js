@@ -13,7 +13,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import Home from '@material-ui/icons/Home';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import ShoppingCart from '@material-ui/icons/ShoppingCart';
-import logotipo from '../../assets/images/logotipo.svg';
+import logotipo from '../../assets/images/logotipo.png';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 import History from '@material-ui/icons/History';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
