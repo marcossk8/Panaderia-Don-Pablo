@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css",
-    "main.js": "/Panaderia-Don-Pablo/static/js/main.164d2c37.chunk.js",
-    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.164d2c37.chunk.js.map",
+    "main.js": "/Panaderia-Don-Pablo/static/js/main.be8680f9.chunk.js",
+    "main.js.map": "/Panaderia-Don-Pablo/static/js/main.be8680f9.chunk.js.map",
     "runtime-main.js": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js",
     "runtime-main.js.map": "/Panaderia-Don-Pablo/static/js/runtime-main.644d3ec6.js.map",
-    "static/js/2.7b52eba1.chunk.js": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js",
-    "static/js/2.7b52eba1.chunk.js.map": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.map",
+    "static/js/2.2ba1105b.chunk.js": "/Panaderia-Don-Pablo/static/js/2.2ba1105b.chunk.js",
+    "static/js/2.2ba1105b.chunk.js.map": "/Panaderia-Don-Pablo/static/js/2.2ba1105b.chunk.js.map",
     "index.html": "/Panaderia-Don-Pablo/index.html",
-    "precache-manifest.135059f82fb8e723b5f37fb1fc958798.js": "/Panaderia-Don-Pablo/precache-manifest.135059f82fb8e723b5f37fb1fc958798.js",
+    "precache-manifest.8a66ac507580de81097f7d37301ad382.js": "/Panaderia-Don-Pablo/precache-manifest.8a66ac507580de81097f7d37301ad382.js",
     "service-worker.js": "/Panaderia-Don-Pablo/service-worker.js",
     "static/css/main.25a05a86.chunk.css.map": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css.map",
-    "static/js/2.7b52eba1.chunk.js.LICENSE.txt": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt",
+    "static/js/2.2ba1105b.chunk.js.LICENSE.txt": "/Panaderia-Don-Pablo/static/js/2.2ba1105b.chunk.js.LICENSE.txt",
     "static/media/alfajor-chocolate.jpg": "/Panaderia-Don-Pablo/static/media/alfajor-chocolate.417b1ed5.jpg",
     "static/media/alfajor-maicena.jpg": "/Panaderia-Don-Pablo/static/media/alfajor-maicena.74a9e40d.jpg",
     "static/media/alfajor-membrillo.jpg": "/Panaderia-Don-Pablo/static/media/alfajor-membrillo.2a37ba45.jpg",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.644d3ec6.js",
-    "static/js/2.7b52eba1.chunk.js",
+    "static/js/2.2ba1105b.chunk.js",
     "static/css/main.25a05a86.chunk.css",
-    "static/js/main.164d2c37.chunk.js"
+    "static/js/main.be8680f9.chunk.js"
   ]
 }

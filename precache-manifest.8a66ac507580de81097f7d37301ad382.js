@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af0e6cc51e53d4b654cd204867e6d82c",
+    "revision": "38f261e51632e31b0239b78ea843a8f2",
     "url": "/Panaderia-Don-Pablo/index.html"
   },
   {
-    "revision": "2615f9b4970105dcfce2",
+    "revision": "32f24a1b7973e0c0d86e",
     "url": "/Panaderia-Don-Pablo/static/css/main.25a05a86.chunk.css"
   },
   {
-    "revision": "08498a2242940cc47a6f",
-    "url": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js"
+    "revision": "87b1e9af505d8342c698",
+    "url": "/Panaderia-Don-Pablo/static/js/2.2ba1105b.chunk.js"
   },
   {
     "revision": "eac4cf64bf573541fd6dba29c78393a0",
-    "url": "/Panaderia-Don-Pablo/static/js/2.7b52eba1.chunk.js.LICENSE.txt"
+    "url": "/Panaderia-Don-Pablo/static/js/2.2ba1105b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2615f9b4970105dcfce2",
-    "url": "/Panaderia-Don-Pablo/static/js/main.164d2c37.chunk.js"
+    "revision": "32f24a1b7973e0c0d86e",
+    "url": "/Panaderia-Don-Pablo/static/js/main.be8680f9.chunk.js"
   },
   {
     "revision": "eb353c0c2a7c5cfab719",
