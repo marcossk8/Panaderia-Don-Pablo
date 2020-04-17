@@ -11,6 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Alert from '@material-ui/lab/Alert';
 import Close from '@material-ui/icons/Close';
 import Collapse from '@material-ui/core/Collapse';
+import MainTitle from '../../components/mainTitles/mainTitles';
 import { configs } from '../../configs/configs';
 
 const useStyles = makeStyles((theme) => ({
@@ -38,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             boxShadow: '10px 10px 60px -24px rgba(0,0,0,0.65)',
         },
-    }
+    },
 }));
 
 export default function FullWidthGrid(props) {
@@ -47,6 +48,8 @@ export default function FullWidthGrid(props) {
 
     return (
         <div className={classes.root}>
+            <MainTitle title={'Categorías'}></MainTitle>
+
             <Collapse in={open}>
                 <Alert
                     className={classes.alertCont}
@@ -64,8 +67,7 @@ export default function FullWidthGrid(props) {
                         </IconButton>
                     }>
                     Ahora puedes comprar sin moverte de tu casa, proba nuestras delicias.
-            </Alert>
-
+                </Alert>
             </Collapse>
 
             <Grid container spacing={3}>
@@ -74,6 +76,7 @@ export default function FullWidthGrid(props) {
                         <Grid key={key} item xs={12} sm={6} md={3}>
                             <Card className={classes.card} onClick={() => {
                                 props.setItemCategory(category.items)
+                                props.setCategoryName(category.name)
                                 props.setViews(1)
                             }}>
                                 <CardActionArea>

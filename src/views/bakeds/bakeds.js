@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import MainTitle from '../../components/mainTitles/mainTitles';
 import IconButton from '@material-ui/core/IconButton';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
@@ -136,6 +137,8 @@ export default function InteractiveList(props) {
 
     return (
         <div className={classes.root}>
+            <MainTitle title={props.categoryName}></MainTitle>
+
             <Snackbar open={openAlertError} autoHideDuration={6000} onClose={handleClose}>
                 <Alert
                     variant="filled"

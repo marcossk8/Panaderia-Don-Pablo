@@ -13,6 +13,7 @@ import ShoppingCart from './views/shoppingCart/shoppingCart';
 
 function App() {
   const [itemCategory, setItemCategory] = React.useState([]);
+  const [categoryName, setCategoryName] = React.useState('');
   const [itemsAddedToCart, setAddedToCart] = React.useState([]);
   const [views, setViews] = React.useState(0)
   const [openAlertConfirmBuy, setOpenAlertBuyConfirmBuy] = React.useState(false);
@@ -27,9 +28,9 @@ function App() {
 
   const toShowViews = () => {
     if (views === 0) {
-      return <Home setItemCategory={setItemCategory.bind(this)} setViews={setViews.bind(this)}></Home>
+      return <Home setItemCategory={setItemCategory.bind(this)} setViews={setViews.bind(this)} setCategoryName={setCategoryName.bind(this)}></Home>
     } else if (views === 1) {
-      return <Bakeds itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setItemCategory={setItemCategory.bind(this)} itemCategory={itemCategory} setViews={setViews.bind(this)}></Bakeds>
+      return <Bakeds itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setItemCategory={setItemCategory.bind(this)} categoryName={categoryName} itemCategory={itemCategory} setViews={setViews.bind(this)}></Bakeds>
     } else if (views === 2) {
       return <ShoppingCart itemsAddedToCart={itemsAddedToCart} setAddedToCart={setAddedToCart.bind(this)} setViews={setViews.bind(this)} setOpenAlertBuyConfirmBuy={setOpenAlertBuyConfirmBuy.bind(this)}></ShoppingCart>
     }
